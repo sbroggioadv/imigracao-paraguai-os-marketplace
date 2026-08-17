@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "imigracao-paraguai-os-marketplace",
+  "description": "Marketplace oficial do plugin imigracao-paraguai-os — imigração para o Paraguai em 3 frentes, com trava OAB≠matrícula PY e varredura de vigência (Ley 6984/2022).",
+  "owner": { "name": "IA Combativa" },
+  "plugins": [
+    {
+      "name": "imigracao-paraguai-os",
+      "source": "./imigracao-paraguai-os",
+      "description": "Assistente completo de imigração para o Paraguai: Ley 6984/2022, MERCOSUL, permanente 2026 e Investor Pass. Gates: vigência + representação (OAB ≠ matrícula PY).",
+      "author": { "name": "IA Combativa" }
+    }
+  ]
+}
