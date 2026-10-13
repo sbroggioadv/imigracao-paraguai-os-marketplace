@@ -1,12 +1,14 @@
 {
-  "SessionStart": [
-    {
-      "hooks": [
-        {
-          "type": "command",
-          "command": "echo 'imigracao-paraguai-os pronto. Rode /imigracao-paraguai para comecar.'"
-        }
-      ]
-    }
-  ]
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'imigracao-paraguai-os pronto. Rode /imigracao-paraguai para comecar.'"
+          }
+        ]
+      }
+    ]
+  }
 }
